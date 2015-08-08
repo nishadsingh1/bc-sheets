@@ -7,7 +7,7 @@ class Sheet
 	EMAIL_ROW = 6
 
 	def add_email(params)
-		first_name = "asdf"
+		first_name = params["first_name"]
 		last_name = params["last_name"]
 		major = params["major"]
 		graduation_semester = params["graduation_semester"]

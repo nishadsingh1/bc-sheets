@@ -3,6 +3,6 @@ class MailingListController < ApplicationController
 		p "params: "+ params.to_s
 		sheet = Sheet.new
 		sheet.add_email(params)
-		render json: {"yay" => "invalid credentials"}.to_json
+		render json: {"yay" => "it worked"}.to_json
 	end
 end
